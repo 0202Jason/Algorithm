@@ -10,6 +10,8 @@
 
 2026-02-09 23:08
 
+### 과정
 
+[gpt 조언1](https://github.com/0202Jason/Algorithm/issues/1#issue-3916699372)
 
 > 출처: SW Expert Academy, https://swexpertacademy.com/main/code/problem/problemList.do
