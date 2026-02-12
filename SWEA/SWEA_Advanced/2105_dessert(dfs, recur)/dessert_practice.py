@@ -1,14 +1,8 @@
-## 디저트 카페
-
-> 연습 코드는 dessert_practice.py에 있음
-
-[발표준비](./presentation)
-```python
-# import sys
-# import pprint
+import sys
+import pprint
 
 
-# sys.stdin = open("sample_input.txt", "r")
+sys.stdin = open("small_sample.txt", "r")
 
 T = int(input())
 
@@ -18,6 +12,7 @@ dj = [1, -1,-1, 1]
 def dfs(ci, cj, d, v):                          # dfs 함수
     global ans, si, sj                          # 글로벌 변수
 
+    print("  " * len(v) + f"위치:({ci},{cj}), 방향:{d}, 가방:{v}")
     if d == 3 and (ci, cj) == (si, sj):         # 사각형이 완성되는 순간 리턴
         ans = max(ans, len(v))
         return
@@ -49,5 +44,4 @@ for tc in range(1, T+1):
             dfs(i, j, 0, [matrix[i][j]])        # 모든 위치에서 dfs 함수 실행
 
     print(f'#{tc} {ans}')
-```
----
+    
