@@ -5,3 +5,6 @@
   
 - [후위 연산](./stack/postfix_calculating)
 - [백트래킹](./stack/backtracking)
+- [재귀](./stack/recursion)
+- [부분집합](./stack/powerset)
+- [순열](./stack/permutation)
