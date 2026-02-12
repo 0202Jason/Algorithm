@@ -2,6 +2,8 @@
 
 > **사용 기술**: `BFS(너비 기반 검색)`, `queue`  
 
+[설명](./presentation)
+
 ## 코드
 ```python
 from collections import deque
