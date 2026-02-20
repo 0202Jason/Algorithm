@@ -8,7 +8,7 @@
 - [재귀](./stack/recursion)
 - [부분집합](./stack/powerset)
 - [순열](./stack/permutation)  
-</details>
+</details>  
 
 
 
@@ -16,5 +16,13 @@
 <summary><b>queue</b></summary> 
 
    [선형 큐](./queue/linear_queue)
+
+</details>  
+
+
+<details>
+<summary><b>tree</b></summary> 
+
+   [트리](./tree/)
 
 </details>
